@@ -1,27 +1,24 @@
 @font-face {
     font-family: 'Medium';
     src: url('Montserrat-Medium.ttf') format('truetype');
-  }
+}
 
 .imgaccueil {
     height: 100vh;
     background-image: url(camera-1130731_1920.jpg);
-    background-repeat:no-repeat;
-    background-position:top;
+    background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
-    position: relative;   
+    position: relative;
     background-size: cover;
     opacity: 0.3;
 }
 
 .accueil {
-   position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Medium';
 
 }
-
-
-

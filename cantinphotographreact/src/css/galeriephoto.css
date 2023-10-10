@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Medium';
+    src: url('Montserrat-Medium.ttf') format('truetype');
+}
+
+.galeriephoto > img {
+    border-radius: 100px;
+}
+
+.galeriephoto {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+p {
+    font-family: 'Medium';
+    }
