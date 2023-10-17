@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Medium';
+    src: url('Montserrat-Medium.ttf') format('truetype');
+}
+
+.prestations > h2 {
+    font-family: 'Medium';
+    color: blue;
+    text-decoration: underline;
+}
+
+.prestations {
+    border: solid blueviolet 1px;
+    border: black;
+
+}

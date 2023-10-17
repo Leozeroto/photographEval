@@ -2,6 +2,8 @@ import Menu from './components/Menu';
 import './css/app.css';
 import Accueil from './pages/Accueil';
 import Garlerie from './pages/Garlerie';
+import Tarifs from './pages/Tarifs';
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       < Menu />
       < Accueil />
       < Garlerie />
+      < Tarifs />
     </>
   );
 }

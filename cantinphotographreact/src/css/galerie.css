@@ -3,16 +3,20 @@
     src: url('Montserrat-Medium.ttf') format('truetype');
 }
 
-.galeriephoto > img {
+.card > img {
     border-radius: 100px;
+    padding: 0 10px 0 10px;
 }
 
-.galeriephoto {
+.card {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
+    padding: 2rem;
 }
 
-p {
+.card > p {
+    font-family: 'Medium';
+    align-self: center;
     font-family: 'Medium';
     }
