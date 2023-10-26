@@ -3,7 +3,7 @@ import Card1 from '../components/Card1'
 import Card2 from '../components/Card2'
 
 
-function Garlerie() {
+function Galerie() {
     return (
         <div className='galerie'>
             <h1>Galerie</h1>
@@ -29,4 +29,4 @@ function Garlerie() {
     )
 }
 
-export default Garlerie
+export default Galerie
