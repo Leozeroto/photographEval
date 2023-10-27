@@ -3,7 +3,12 @@
     src: url('Montserrat-Medium.ttf') format('truetype');
 }
 
-.card > img {
+.galerie {
+    font-family: 'Medium';
+
+}
+
+.card>img {
     border-radius: 100px;
     padding: 0 10px 0 10px;
 }
@@ -15,8 +20,14 @@
     padding: 2rem;
 }
 
-.card > p {
-    font-family: 'Medium';
+.card>p {
     align-self: center;
-    font-family: 'Medium';
-    }
+}
+
+select {
+    background-color: #819FF7;
+    border : none;
+    padding: 1em;
+    border-radius: 99px;
+    
+}

@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import './css/app.css';
 import Accueil from './pages/Accueil';
-import Galerie from './pages/Garlerie';
+import Galerie from './pages/Galerie';
 import Tarifs from './pages/Tarifs';
 
 

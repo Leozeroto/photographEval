@@ -8,7 +8,6 @@ function Galerie() {
         <div className='galerie'>
             <h1>Galerie</h1>
 
-            <label htmlFor='categorie'>Catégorie</label>
             <select name='categorie' id='categorie'>
                 <option value="">Choisir une catégorie</option>
                 <option value="mariage">Mariage</option>
@@ -21,8 +20,8 @@ function Galerie() {
             </select>
 
             <div>
-               <Card1 />
-               <Card2 />
+                <Card1 />
+                <Card2 />
             </div>
 
         </div>
