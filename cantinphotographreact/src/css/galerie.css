@@ -31,3 +31,7 @@ select {
     border-radius: 99px;
     
 }
+
+.select {
+    text-align: center;
+}
