@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Medium';
-    src: url('Montserrat-Medium.ttf') format('truetype');
-}
-
-.tarifs > h1 {
-    font-family: 'Medium';
-
-}
