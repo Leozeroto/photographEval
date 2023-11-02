@@ -5,7 +5,7 @@ import './css/app.css';
 import Accueil from './pages/Accueil';
 import Galerie from './pages/Galerie';
 import Tarifs from './pages/Tarifs';
-
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path='/' element={< Accueil />} />
         <Route path='/galerie' element={< Galerie />} />
         <Route path='/tarifs' element={< Tarifs />} />
+        <Route path='/contact' element={< Contact />} />
       </Routes>
 
     </>

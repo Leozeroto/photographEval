@@ -4,7 +4,7 @@
 }
 
 .menu {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 ul {
@@ -24,5 +24,5 @@ a {
 
 .activeLink {
     font-weight: bold;
-    color: blue;
+    color: rgb(29 78 216);
 }

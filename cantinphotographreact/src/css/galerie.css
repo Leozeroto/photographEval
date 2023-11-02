@@ -8,28 +8,31 @@
 
 }
 
-.card>img {
-    border-radius: 100px;
+.carte>img {
+    width: 1000px;
+    height: 1px;
+    border-radius: 1000px;
     padding: 0 10px 0 10px;
-}
+} 
 
-.card {
+/* .carte {
+    display: grid;
+    width: 540px;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 2rem;
-}
-
-.card>p {
-    align-self: center;
-}
+    justify-content: center; 
+    padding: 2rem; 
+}*/
 
 select {
     background-color: #819FF7;
-    border : none;
+    border: none;
     padding: 1em;
     border-radius: 99px;
-    
+
 }
 
 .select {

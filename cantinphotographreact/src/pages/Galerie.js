@@ -1,6 +1,5 @@
 import React from 'react'
-import Card1 from '../components/Card1'
-import Card2 from '../components/Card2'
+import Card from '../components/Card'
 
 
 function Galerie() {
@@ -20,12 +19,10 @@ function Galerie() {
                     <option value="portrait">Portrait</option>
                 </select>
             </div>
-
-            <div>
-                <Card1 />
-                <Card2 />
+            
+            <div className="carte">
+                <Card />
             </div>
-
         </div>
     )
 }
