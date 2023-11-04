@@ -1,14 +1,46 @@
 .TextInput {
-    display: flex;
-    position: relative;
     padding: 10px;
-    margin: 10px;
-    left: 40%;
-    
+    text-align: center;
 }
+
+input {
+    border: 1px solid grey;
+    border-radius: 99px;
+    text-align: center;
+    padding: 0.2em;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.2em;
+    color: blue;
+    box-shadow: 10px 5px 5px grey;
+
+}
+
 
 .textArea {
     padding: 10px;
     text-align: center;
     margin: 10px;
+
+}
+
+textarea {
+    border: 1px solid grey;
+    border-radius: 99px;
+
+}
+
+form {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Medium';
+    text-align: center;
 }
