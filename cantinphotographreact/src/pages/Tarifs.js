@@ -15,6 +15,8 @@ function Tarifs() {
                     h2={'"Pour deux" 195 euros'}
                     p={'Pour deux personnes, en extérieur ou en studio'}
                 />
+                <div className='imgaccueil'></div>
+
         </div>
     )
 }

@@ -3,15 +3,14 @@
     src: url('Montserrat-Medium.ttf') format('truetype');
 }
 
-.imgaccueil {
+html {
     height: 100vh;
-    background-image: url(camera-1130731_1920.jpg);
+    background-image: url(camera-1130731_640.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     position: relative;
     background-size: cover;
-    opacity: 0.3;
 }
 
 .accueil {
