@@ -5,7 +5,7 @@ import Card from '../components/Card'
 function Galerie() {
     return (
         <>
-            <h1 className='titreGalerie'>Voici l'ensemble de ma galerie</h1>
+            <h1 className='titreGalerie'>Voici ma galerie photo</h1>
 
             <div className='select'>
                 <select name='categorie' id='categorie'>

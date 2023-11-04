@@ -3,9 +3,27 @@
     src: url('Montserrat-Medium.ttf') format('truetype');
 }
 
-.tarifs > h2 {
+
+.tarifs>h1 {
+    font-size: 2em;
     font-family: 'Medium';
-    color: green;
-    text-decoration: underline;
-    border: 10px solid black;
+    text-align: center;
+    padding: 1.2em;
+    font-weight: bold;
+
+}
+.prestations>h2 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.prestations {
+    font-family: 'Medium';
+    padding: 2em;
+    border: 2px blue solid;
+    margin: 10px;
+    border-radius: 99px;
+    background-color: whitesmoke;
+    box-shadow: 1em 1em 1em grey, -1em 1em 1em grey;
+
 }
