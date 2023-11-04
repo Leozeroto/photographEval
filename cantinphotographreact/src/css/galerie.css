@@ -3,28 +3,40 @@
     src: url('Montserrat-Medium.ttf') format('truetype');
 }
 
-.galerie {
+
+.titreGalerie {
+    font-size: 2em;
     font-family: 'Medium';
-  
-   }
+    text-align: center;
+    padding: 1.2em;
+    font-weight: bold;
+
+}
+
+.carte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .carte>img {
-    width: 1000px;
-    height: 1px;
+    width: 500px;
+    height: auto;
     border-radius: 1000px;
-    padding: 0 10px 0 10px;
-} 
+    padding: 2em;
+    margin: 10px;
+}
 
 select {
     background-color: #819FF7;
     border: none;
     padding: 1em;
     border-radius: 99px;
-
-
+    font-weight: bold;
 }
 
 .select {
     text-align: center;
-   
+    padding: 1em;
 }
