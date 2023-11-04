@@ -5,7 +5,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <form>
+        <form> Formulaire de contact
             <div className='TextInput' >
                 <label>
                     Prénom :
