@@ -4,6 +4,7 @@ const Accueil = () => {
   return (
     <>
       <h1 className='accueil'>Charles Cantin - Photographe</h1>
+      <div className='fondAccueil'></div>
     </>
   );
 }

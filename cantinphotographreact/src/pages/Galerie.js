@@ -20,24 +20,33 @@ function Galerie() {
                 </select>
             </div>
 
-
-            <div className="carte">
+            <div className='cardRow'>
                 <Card
-                    img='https://www.zooplus.fr/magazine/wp-content/uploads/2019/06/comprendre-le-langage-des-chats.jpg'
+                    h4={"Sweet ESCAPE"}
+                    p={"c'est moi"}
+                />
+                <Card
+                    h4={"Willy WONKA"}
+                    p={"et oui"}
                 />
 
                 <Card
-                    img='https://www.zooplus.fr/magazine/wp-content/uploads/2019/06/comprendre-le-langage-des-chats.jpg'
+                    h4={"Willy WONKA"}
+                    p={"et oui"}
                 />
 
                 <Card
-                    img='https://www.zooplus.fr/magazine/wp-content/uploads/2019/06/comprendre-le-langage-des-chats.jpg'
+                    h4={"Willy WONKA"}
+                    p={"et oui"}
                 />
 
                 <Card
-                    img='https://www.zooplus.fr/magazine/wp-content/uploads/2019/06/comprendre-le-langage-des-chats.jpg'
+                    h4={"Willy WONKA"}
+                    p={"et oui"}
                 />
+
             </div>
+
 
 
 
