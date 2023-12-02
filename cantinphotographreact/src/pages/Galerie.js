@@ -22,27 +22,40 @@ function Galerie() {
 
             <div className='cardRow'>
                 <Card
-                    h4={"Sweet ESCAPE"}
-                    p={"c'est moi"}
+                    img={"img/bapt1.jpg"}
+                    h4={"Baptême"}
+                    p={"Photos de baptême"}
                 />
                 <Card
-                    h4={"Willy WONKA"}
-                    p={"et oui"}
-                />
-
-                <Card
-                    h4={"Willy WONKA"}
-                    p={"et oui"}
+                    h4={"Famille"}
+                    p={"Photos de famille"}
                 />
 
                 <Card
-                    h4={"Willy WONKA"}
-                    p={"et oui"}
+                    h4={"Grossesse"}
+                    p={"Photos de grossesse"}
                 />
 
                 <Card
-                    h4={"Willy WONKA"}
-                    p={"et oui"}
+                    h4={"Portrait"}
+                    p={"Photos de portrait"}
+                />
+
+                <Card
+                    h4={"Bébé"}
+                    p={"Photos de bébé"}
+                />
+
+
+                <Card
+                    h4={"Couple"}
+                    p={"Photos de couple"}
+                />
+
+
+                <Card
+                    h4={"Mariage"}
+                    p={"Photos de mariage"}
                 />
 
             </div>
