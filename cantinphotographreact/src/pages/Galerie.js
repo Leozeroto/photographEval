@@ -22,7 +22,7 @@ function Galerie() {
 
             <div className='cardRow'>
                 <Card
-                    img={"img/bapt1.jpg"}
+                    img={"/img/couple/couple-437968_640.jpg"}
                     h4={"Baptême"}
                     p={"Photos de baptême"}
                 />
