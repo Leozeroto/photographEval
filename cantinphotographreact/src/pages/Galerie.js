@@ -1,18 +1,26 @@
-import { useState } from 'react'
 import React from 'react'
 import Card from '../components/Card'
 
 
-function Galerie() {
+function Galerie(props) {
 
-const [filtreGalerie, setFiltreGalerie] = useState ([]);
+    const { handleFiltreGalerie} = props;
+    const photo = {
+        categorie: 'pouet'
+    }
+
+    function handleSubmit(evt) {
+        evt.preventDefault()
+        handleFiltreGalerie(photo)
+    }
+
 
     return (
         <>
             <h1 className='titreGalerie'>Voici ma galerie photo</h1>
 
             <div className='select'>
-                <select name='categorie' id='categorie'>
+                <select name='categorie' id='categorie' onChange={(evt)=>handleSubmit(evt)}>
                     <option value="">Choisir une catégorie</option>
                     <option value="mariage">Mariage</option>
                     <option value="grossesse">Grossesse</option>
